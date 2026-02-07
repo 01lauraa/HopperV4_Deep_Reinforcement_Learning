@@ -36,15 +36,12 @@ PPO hyperparameters are tuned using Optuna, while TQC uses benchmark hyperparame
 
 ---
 
-## Repository Structure
-
-.
-├── P1.py                  # Hopper-v4 training, evaluation, and plotting
-├── PPO+OPTUNA.ipynb       # PPO tuning for BipedalWalker-v3
-├── TQC.ipynb              # TQC training and evaluation
-├── results_completed/     # Saved models and results
-├── report.pdf             # Full report with analysis and figures
-└── README.md
+P1.py                # Hopper-v4 experiments
+PPO+OPTUNA.ipynb     # PPO tuning (BipedalWalker-v3)
+TQC.ipynb            # TQC training and evaluation
+results_completed/   # Saved models and results
+report.pdf           # Full report
+README.md
 
 
 ---
