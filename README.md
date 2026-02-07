@@ -2,7 +2,6 @@
 <p>
 This repository contains the code for a Deep Reinforcement Learning assignment focused on continuous control tasks using Hopper-v4 and BipedalWalker-v3 from Gymnasium. The goals are (1) study robustness and generalization under environment changes, and (2) compare on-policy and off-policy methods in terms of performance, stability, and computational cost.
 </p>
----
 
 ## Overview of Experiments
 
