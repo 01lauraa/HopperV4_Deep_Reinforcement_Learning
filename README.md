@@ -1,9 +1,6 @@
 # Deep Reinforcement Learning – Hopper & BipedalWalker
 
-This repository contains the code and experiments for a Deep Reinforcement Learning assignment focused on continuous control tasks using Hopper-v4 and BipedalWalker-v3 from Gymnasium. The goal is twofold: (1) study robustness and generalization under environment changes, and (2) compare on-policy and off-policy methods in terms of performance, stability, and computational cost.
-
-The work was done as part of a university assignment (June 2023), but the code is written to be readable, reproducible, and easy to extend.
-
+This repository contains the code for a Deep Reinforcement Learning assignment focused on continuous control tasks using Hopper-v4 and BipedalWalker-v3 from Gymnasium. The goals are (1) study robustness and generalization under environment changes, and (2) compare on-policy and off-policy methods in terms of performance, stability, and computational cost.
 ---
 
 ## Overview of Experiments
@@ -49,15 +46,6 @@ PPO hyperparameters are tuned using Optuna, while TQC uses benchmark hyperparame
 ├── report.pdf             # Full report with analysis and figures
 └── README.md
 
----
-
-## Running the Code
-
-Example:
-
-python P1.py
-
-Training sections are commented out by default to avoid long runtimes. Pretrained models are recommended for evaluation.
 
 ---
 
@@ -72,14 +60,4 @@ Detailed results and discussion are provided in report.pdf.
 
 ---
 
-## Notes
 
-- PPO performance varies noticeably across random seeds.
-- Modifying MuJoCo physics parameters assumes a compatible Gymnasium/MuJoCo setup.
-- Training is computationally expensive.
-
----
-
-## Author
-
-Laura Gozzo
